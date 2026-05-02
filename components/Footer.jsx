@@ -83,6 +83,7 @@ export default function Footer() {
                 </a>
               ))}
               {/* RSS */}
+              {/* eslint-disable-next-line @next/next/no-html-link-for-pages -- RSS returns XML and should use document navigation. */}
               <a
                 href="/rss.xml"
                 className="w-9 h-9 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-orange-500 hover:text-white transition-all duration-200"
